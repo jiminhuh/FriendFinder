@@ -15,7 +15,7 @@ module.exports = (app) => {
             // Update friends.js file 
             fs.writeFile(path.join(__dirname, "../data/friends.js"), JSON.stringify(friends), (err) => {
                 if(err) throw err;
-                console.log("friends.js updated");
+                console.log("Updated!");
             })
         // Array Filter to see if there are any data that has the exact same name and photo (duplicate entries)
         } else if (friends.filter(e => (e.name === newFriend.name && e.photo === newFriend.photo)).length > 0) {
