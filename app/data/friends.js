@@ -1,1 +1,22 @@
-[{"name":"Helen","photo":"https://google.com","scores":[5,1,2,4,4,5,1,2,5,4,1]}]
+//array that holds all the 'friends' that have taken the survey
+//initialize starting with 'dummy' data
+var friendList = [
+    {
+      name: 'Jimin Huh',
+      profilePic: 'https://pbs.twimg.com/profile_images/1042322703854829568/XVDXUNVJ_400x400.jpg',
+      scores: [
+        "4",
+        "5",
+        "5",
+        "2",
+        "4",
+        "5",
+        "4",
+        "4",
+        "3",
+        "4"
+      ]
+    }
+  ]
+  
+  module.exports = friendList;
